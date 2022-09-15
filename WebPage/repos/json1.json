@@ -1,0 +1,20 @@
+{
+  "employee": [
+    {
+      "fname": "Seetha",
+      "lname": "lakshmi",
+      "id": 233757,
+      "location": "Tvm",
+      "Roles": [ "java", "cloud", "devops" ]
+    },
+    {
+      "fname": "Namith",
+      "lname": "Joseph",
+      "id": 233768,
+      "location": "kochi",
+      "Roles": [ "DataEngineering", "sales", "health" ]
+    }
+
+  ]
+
+}
