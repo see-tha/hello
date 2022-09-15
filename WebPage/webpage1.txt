@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+
+<style>
+h1
+{
+text-align : center; 
+}
+</style>
+<style>
+.colors {
+  background-color:green;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+</style>
+
+
+</head>
+
+<body background="C:/Users/ustjavafsdb109/Desktop/image2.jpg"> 
+
+    
+
+<h2 align="center">
+<font face ="Lato" size="4">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="colors.html">Color Program</a>
+    
+
+
+<h1>UST GLOBAL</h1>
+<p><abbr title="US Technology">UST</abbr> is a Digital Transformatios Solution Company.</p>
+<img src="C:/Users/ustjavafsdb109/Desktop/image1.jfif" alt="UST GLOBAL" width="250" height="300" class="center">
+<br>
+<a href="https://www.ust.com/en/who-we-are/locations">Search here</a>
+
+</header>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

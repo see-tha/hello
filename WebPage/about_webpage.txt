@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+p,h1{text-align : center;
+}
+</style>
+
+</head>
+<body>
+<body style="background-color:antiquewhite;">
+<h1>About UST</h1>
+<p>UST Global is a digital technology services provider. It offers cybersecurity, information management, legal modernization, mobility, portfolio assessment, Internet of Things (IoT), cloud, and other services. The company caters to energy and utilities, healthcare, manufacturing, retail, telecommunication, and other sectors..</p>
+<ul>
+<li>Employee No:  29K</li>
+<li>Founded : 1999</li>
+<li>Founding Date</li>
+<ul>
+</body>
+</html>
