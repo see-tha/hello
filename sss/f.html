@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style
+    .body{
+        margin-top:20px;
+        color: #1a202c;
+        text-align: left;
+        background-color: #e2e8f0;    
+    }
+    .main-body {
+        padding: 15px;
+    }
+    .card {
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+    }
+    
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+    
+    .card-body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1rem;
+    }
+    
+    .gutters-sm {
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+    
+    .gutters-sm>.col, .gutters-sm>[class*=col-] {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .mb-3, .my-3 {
+        margin-bottom: 1rem!important;
+    }
+    
+    .bg-gray-300 {
+        background-color: #e2e8f0;
+    }
+    .h-100 {
+        height: 100%!important;
+    }
+    .shadow-none {
+        box-shadow: none!important;
+    }
+    </style
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <section style="background-color: rgb(244, 245, 194);">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                <ul class="breadcrumb mb-0">
+                  
+                  <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <img src="C:/Users/ustjavafsdb109/Desktop/picme.jfif" alt="avatar"
+                    class="rounded-circle img-fluid" style="width: 150px;">
+                  <h5 class="my-3">Seethalakshmi Murali</h5>
+                  <p class="text-muted mb-1">Full Stack Developer</p>
+                  <p class="text-muted mb-4">Cherthala, Alappuzha</p>
+                  <div class="d-flex justify-content-center mb-2">
+                    <button type="button" class="btn btn-primary">Follow</button>
+                    <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-4 mb-lg-0">
+                <div class="card-body p-0">
+                  <ul class="list-group list-group-flush rounded-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fas fa-globe fa-lg text-warning"></i>
+                      <p class="mb-0">https://mdbootstrap.com</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                      <p class="mb-0">@mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>-->
+            <div class="col-lg-8">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Full Name</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0" >Seethalakshmi Murali</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Email</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">seethalakshmim99@gmail.com</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Phone</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">8113005902</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Mobile</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">9020066105</p>
+                    </div>
+                  </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Sex</p>
+                    </div>
+                  <div class="form-check">
+                    <div class="col-sm-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Female
+                    </label>
+                 
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      male
+                    </label>
+                  </div>
+                </div>
+
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Address</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Padinjareveli, Varandu P O, Cherthala</p>
+                    </div>
+                    <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Skills</p>
+                    </div>
+                    <div class="dropdown">
+                        
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item" >Problem Solving</li>
+                          <li class="dropdown-item" >Time Managment</li>
+                          <li class="dropdown-item">Leadership</li>
+                        </ul>
+                      </div>
+                  </div>
+                    <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Project</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Android Car Rental System</p>
+                      <p class="text-muted mb-0">Android Hotel Managment System</p>
+                      <p class="text-muted mb-0">Web Service Composition Using NLP</p>
+                    </div>
+                    
+                  
+      </section>
+</body>
+</html>
